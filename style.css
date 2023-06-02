@@ -1,11 +1,22 @@
 body {
     background-color: #0A153E;
 }
+#positioning {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 .Qblock {
     background-color: #000000;
+    color: #FFFFFF;
     width: 700px;
     height: 433px;
-    top: 200px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50px;
@@ -13,7 +24,7 @@ body {
 .Wbutton {
     background-color: #000000;
     color: #FFFFFF;
-    top: 400px;
+    margin-top: 50px;
     width: 250px;
     height: 80px;
     margin-left: auto;
